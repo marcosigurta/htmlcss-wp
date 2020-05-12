@@ -82,12 +82,17 @@ a, p, span {
 #navbar {
   background-color: #504741;
   width: 100%;
-  text-align: center;
+
 }
 
 #navbar .navbar {
-  width: 45%;
+  width: 40%;
   margin: 0 auto;
+ 
+}
+
+#navbar .navbar ul {
+  width: 100%;
 }
 
 #navbar .navbar ul li {
@@ -96,7 +101,7 @@ a, p, span {
 }
 
 #navbar .navbar ul .border {
-  border-left: 1px solid black;
+  border-left: 1px solid #45403C;
   border-right: 1px solid #302B27;
 }
 
@@ -115,16 +120,44 @@ a, p, span {
   border-right: none;
 }
 
-#navbar .navbar ul li a:hover {
+#navbar .navbar ul li a:hover,
+#navbar .navbar ul li .current{
   background-color: #302B27;
+  color: white;
 }
 
 #navbar .navbar ul li a {
   display: block;
   text-decoration: none;
-  color: white;
-  padding: 20px;
+  line-height: 40px;
+  padding: 0 10px;
   transition: 1s;
+  color: #B7BABE;
+  text-shadow: 1px 1px rgba(0, 0, 0, .4);
+  letter-spacing: 2px;
+}
+
+.dropdown-content {
+  position: absolute;
+  display: none;
+  min-width: 180px;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  text-decoration: none;
+  min-width: 180px;
+  background-color: #504741;
+  border-top: 1px solid #45403C;
+  border-bottom: 1px solid #302B27;
+}
+
+.dropdown-content a:first-child {
+  border-top: none;
+}
+
+.border:hover .dropdown-content{
+  display: block;
 }
 
 /* SECTION CLEARFIX */
