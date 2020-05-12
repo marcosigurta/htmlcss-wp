@@ -113,21 +113,26 @@ a, p, span {
 
 /* LEFT SECTION */
 .section .left {
-  position: relative;
-  padding: 1%;
+  padding: 0.5%;
 }
 
-.section .left img {
-  width: 15%;
-  height: 10%;
-  position: absolute;
-  top: 1%;
-  left: 1%;
+.section .left .left_title {
+  width: 100%;
 }
 
-.section .left h2 {
-  margin-bottom: 2%;
-  text-align: center;
+.section .left .left_title #left_title_img {
+  width: 20%;
+  float: left;
+}
+
+.section .left .left_title #left_title_img img {
+  width: 30px;
+  height: 30px;
+}
+
+.section .left .left_title #left_title_h2 {
+  width: 80%;
+  float: left;
 }
 
 .section .left ul li {
