@@ -69,7 +69,7 @@ a, p, span {
   border: 2px solid white;
   margin-bottom: 5%;
   font-size: 50px;
-  text-shadow:2px 5px 5px #000;
+  text-shadow: 2px 5px 5px #000;
 }
 
 #header .img #header_title span {
@@ -107,7 +107,6 @@ a, p, span {
 #navbar .navbar ul .border:last-of-type {
   border-right: none;
 } */
-
 #navbar .navbar ul li:first-child {
   border-left: none;
 }
@@ -115,7 +114,6 @@ a, p, span {
 #navbar .navbar ul li:last-child {
   border-right: none;
 }
-
 
 #navbar .navbar ul li a:hover {
   background-color: #302B27;
@@ -128,7 +126,6 @@ a, p, span {
   padding: 20px;
   transition: 1s;
 }
-
 
 /* SECTION CLEARFIX */
 .section .block {
@@ -151,14 +148,13 @@ a, p, span {
 }
 
 /* LEFT SECTION */
-
- .section .left .left_subcontainer #left_title_h3 {
+.section .left .left_subcontainer #left_title_h3 {
   padding: 5%;
-} 
+}
 
 .section .left .left_subcontainer ul {
   padding: 10%;
-} 
+}
 
 .section .left ul li {
   list-style: none;
